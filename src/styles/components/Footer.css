@@ -1,7 +1,7 @@
 footer {
     padding: 20px;
-    background-color: var(--marrom);
-    color: var(--bege);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
     text-align: center;
 }
 
@@ -13,11 +13,11 @@ footer {
 }
 
 .social-icons a {
-    color: var(--bege);
+    color: var(--cor-primaria);
     font-size: 20px;
     transition: color 0.3s;
 }
 
 .social-icons a:hover {
-    color: var(--rosa);
+    color: var(--detalhe);
 }

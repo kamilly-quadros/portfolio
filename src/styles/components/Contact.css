@@ -1,6 +1,6 @@
 #contact {
     padding: 80px 20px;
-    background-color: var(--bege-claro);
+    background-color: var(--cor-primaria-clara);
     text-align: center;
 }
 
@@ -22,18 +22,18 @@ textarea {
     width: 94.8%;
     padding: 15px;
     border-radius: 5px;
-    border: 1px solid var(--marrom);
+    border: 1px solid var(--cor-secundaria);
     font-size: 16px;
 }
 
 textarea:focus {
     outline: none;
-    border: 2px solid var(--marrom-escuro);
+    border: 2px solid var(--cor-secundaria-escura);
 }
 
 input:focus {
     outline: none;
-    border: 2px solid var(--marrom-escuro);
+    border: 2px solid var(--cor-secundaria-escura);
 }
 
 textarea {
@@ -42,9 +42,9 @@ textarea {
 }
 
 button.btn {
-    background-color: var(--marrom);
+    background-color: var(--cor-secundaria);
     border: none;
-    color: var(--bege);
+    color: var(--cor-primaria);
     padding: 15px;
     font-size: 18px;
     cursor: pointer;
@@ -52,7 +52,7 @@ button.btn {
 }
 
 button:hover {
-    background-color: var(--marrom-escuro);
+    background-color: var(--cor-secundaria-escura);
 }
 
 @media (max-width: 540px) {

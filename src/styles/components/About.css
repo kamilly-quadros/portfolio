@@ -1,6 +1,6 @@
 #about {
     padding: 80px 20px;
-    background-color: var(--bege);
+    background-color: var(--cor-primaria);
     text-align: center;
 }
 
@@ -19,13 +19,13 @@
 
 #about .btn {
     font-size: 18px;
-    color: var(--marrom);
+    color: var(--cor-secundaria);
     padding-bottom: 1rem;
     font-weight: 500;
     text-decoration: none;
 }
 
 #about hr{
-    border-top: 1px solid var(--marrom);
+    border-top: 1px solid var(--cor-secundaria);
     width: 4rem;
 }

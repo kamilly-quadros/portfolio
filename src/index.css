@@ -7,8 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--marrom);
-  background-color: var(--bege-claro);
+  color: var(--cor-secundaria);
+  background-color: var(--cor-primaria-clara);
 }
 
 code {
@@ -17,9 +17,9 @@ code {
 }
 
 :root {
-  --bege: #FAF0E6;
-  --bege-claro: #FFFFF0;
-  --marrom: #A0522D;
-  --marrom-escuro: #8B4513;
-  --rosa: #FFB6C1;
+  --cor-primaria: #FAF0E6;
+  --cor-primaria-clara: #FFFFF0;
+  --cor-secundaria: #A0522D;
+  --cor-secundaria-escura: #8B4513;
+  --detalhe: #FFB6C1;
 }

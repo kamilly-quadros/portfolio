@@ -1,6 +1,6 @@
 #projects {
     padding: 80px 20px;
-    background-color: var(--bege);
+    background-color: var(--cor-primaria);
 }
 
 #projects h2 {
@@ -18,7 +18,7 @@
 }
 
 .project-card {
-    background-color: var(--bege-claro);
+    background-color: var(--cor-primaria-clara);
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -44,7 +44,7 @@
 .project-card p {
     font-size: 16px;
     margin: 0 20px 20px 20px;
-    color: var(--marrom-escuro);
+    color: var(--cor-secundaria-escura);
 }
 
 .project-card .btn {
@@ -52,12 +52,12 @@
     text-align: center;
     margin: 0 20px 20px 20px;
     padding: 10px 20px;
-    background-color: var(--marrom);
-    color: var(--bege);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
     border-radius: 5px;
     text-decoration: none;
 }
 
 .project-card .btn:hover {
-    background-color: var(--marrom-escuro);
+    background-color: var(--cor-secundaria-escura);
 }
