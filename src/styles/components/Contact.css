@@ -1,0 +1,64 @@
+#contact {
+    padding: 80px 20px;
+    background-color: var(--bege-claro);
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input,
+textarea {
+    width: 94.8%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid var(--marrom);
+    font-size: 16px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid var(--marrom-escuro);
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid var(--marrom-escuro);
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+button.btn {
+    background-color: var(--marrom);
+    border: none;
+    color: var(--bege);
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--marrom-escuro);
+}
+
+@media (max-width: 540px) {
+
+    input,
+    textarea {
+        width: auto;
+    }
+}
