@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kamilly-quadros.github.io/template-portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,7 +16,7 @@
     "react": "^18.3.1",
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -23,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +48,7 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",
-    "@types/react-burger-menu": "^2.8.7"
+    "@types/react-burger-menu": "^2.8.7",
+    "gh-pages": "^6.1.1"
   }
 }
