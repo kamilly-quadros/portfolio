@@ -16,6 +16,13 @@ header {
     font-size: 24px;
     font-weight: bold;
     color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 2rem;
+    margin-right: 1rem;
 }
 
 nav {
@@ -54,7 +61,7 @@ nav ul li a:hover {
     header {
         display: flex;
         justify-content: start;
-        gap: 59%;
+        gap: 40%;
         align-items: center;
         padding: 20px;
         background-color: var(--cor-secundaria);

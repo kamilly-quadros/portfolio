@@ -19,7 +19,10 @@ const Skills: React.FC = () => {
                 <div className="skill-item">JavaScript</div>
                 <div className="skill-item">TypeScript</div>
                 <div className="skill-item">React</div>
-                <div className="skill-item">Node.js</div>
+                <div className="skill-item">C#</div>
+                <div className="skill-item">SQL</div>
+                <div className="skill-item">SCRUM</div>
+                <div className="skill-item">React Native</div>
             </div>
         </section>
     );
