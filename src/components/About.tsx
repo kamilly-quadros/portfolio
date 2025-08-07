@@ -27,8 +27,8 @@ const About: React.FC = () => {
         colaborar e transformar suas ideias em realidade.
       </p>
       <a
-        href="/cv.pdf"
-        download="Kamilly-Vitoria-Curriculo.pdf"
+        href="Kamilly-curriculo-full-stack.pdf"
+        download="Kamilly-curriculo-full-stack.pdf"
         className="btn"
         data-aos="fade-up"
       >
